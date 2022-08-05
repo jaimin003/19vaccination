@@ -1,0 +1,366 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Umaster.master.cs" Inherits="user_Umaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+  
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from www.codezion.com/themes/html/karona/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 15 May 2022 09:45:54 GMT -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="keywords" content="#">
+<meta name="description" content="#">
+<title>Karona - Corona Virus  Medical HTML Template | Homepage</title>
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="assets/images/favicon.ico">
+<link rel="shortcut icon" href="assets/images/favicon.ico">
+
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+<link href="assets/css/font-awesome.css" rel="stylesheet">
+
+<link href="assets/css/font/flaticon.css" rel="stylesheet">
+
+<link href="assets/css/slick.css" rel="stylesheet">
+
+<link href="assets/css/ion.rangeSlider.min.css" rel="stylesheet">
+
+<link href="assets/css/datepicker.css" rel="stylesheet">
+
+<link href="assets/css/magnific-popup.css" rel="stylesheet">
+
+<link href="assets/css/nice-select.css" rel="stylesheet">
+
+<link href="assets/css/style.css" rel="stylesheet">
+
+<link href="assets/css/responsive.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&amp;display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+
+<header class="header">
+<div class="topbar bg-theme">
+<div class="container">
+<div class="row">
+<div class="col-lg-6 col-md-5">
+<div class="leftside">
+<ul class="custom-flex">
+<li>
+<a href="#" class="text-custom-white"><i class="fab fa-facebook-f"></i></a>
+</li>
+<li>
+<a href="#" class="text-custom-white"><i class="fab fa-twitter"></i></a>
+</li>
+<li>
+<a href="#" class="text-custom-white"><i class="fab fa-instagram"></i></a>
+</li>
+<li>
+<a href="#" class="text-custom-white"><i class="fab fa-linkedin"></i></a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col-lg-6 col-md-7">
+<div class="rightside full-height">
+<ul class="custom-flex full-height">
+<li class="book-appointment">
+<a href="contact.aspx">
+CONTACT US
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="container">
+<div class="row">
+<div class="col-12">
+<nav>
+<div class="main-navigation">
+ <div class="logo hide-desk">
+<a href="Uhome.aspx">
+<img src="assets/images/logo.jpg" class="image-fit" alt="logo">
+</a>
+</div>
+<div class="main-menu">
+<ul class="custom-flex">
+</li>
+<li class="menu-item">
+<a href="Uhome.aspx">Home</a>
+</li>
+<li class="menu-item menu-item-has-children">
+<a href="">Vaccine</a>
+<ul class="submenu custom">
+<li class="menu-item">
+<a href="Vac_info.aspx">Vaccine Center</a>
+</li>
+<li class="menu-item">
+<a href="dummycerti.aspx">View Certificate</a>
+</li>
+<li class="menu-item">
+<a href="dummyinvoice.aspx">View Invoice</a>
+</li>
+</ul>
+
+</li>
+<li class="menu-item">
+<a href="Dinfo.aspx">Doctors</a>
+</li>
+<li class="desk-logo">
+<div class="logo">
+<a href="Uhome.aspx">
+<img src="assets/images/logo.jpg" class="image-fit" alt="logo">
+</a>
+</div>
+</li>
+<li class="menu-item menu-item-has-children">
+<a href="">OutBreak</a>
+<ul class="submenu custom">
+<li class="menu-item">
+<a href="TOState.aspx">Table Format</a>
+</li>
+<li class="menu-item">
+<a href="GOState.aspx">Graphs</a>
+</li>
+</ul>
+<li class="menu-item">
+<a href="SList.aspx">Services</a>
+</li>
+<li class="menu-item">
+<a href="EList.aspx">Events</a>
+</li>
+<li class="menu-item menu-item-has-children">
+<a href="#">Authentication</a>
+<ul class="submenu custom">
+<li class="menu-item">
+<a href="Vupro.aspx">View profile</a>
+</li>
+<li class="menu-item">
+ <a href="Eupro.aspx">edit profile</a>
+</li>
+<li class="menu-item">
+<a href="ULogout.aspx">Logout</a>
+</li>
+</ul>
+</li>
+<%--<li class="menu-item ">
+<a href="contact.html">Contact</a>
+</li>--%>
+</ul>
+</div>
+<div class="hamburger-menu">
+<div class="menu-btn">
+<span></span>
+<span></span>
+<span></span>
+</div>
+</div>
+</div>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+
+
+  <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+
+<footer class="bg-custom-theme section-padding footer">
+<div class="container">
+<div class="row">
+<div class="col-lg-3 col-sm-6">
+<div class="ft-box mb-md-80">
+<div class="ft-head">
+<h4 class="text-custom-white">About Covid-19</h4>
+</div>
+<ul class="ft-about custom">
+<li>
+<i class="fas fa-map-marker-alt"></i>
+<span class="text-custom-white">
+<strong>Address:</strong>
+<a href="about.html" class="fs-16 text-white d-block">Athwa Gate, SCET Surat.</a>
+</span>
+</li>
+<li>
+<i class="far fa-envelope"></i>
+<span class="text-custom-white">
+<strong>Have any questions:</strong>
+<a href="#" class="fs-16 text-white d-block"><span class="__cf_email__" data-cfemail="eaae8f8785aa8e85878b8384c4898587">[jaimin123@gmail.com&#160;]</span></a>
+</span>
+</li>
+<li>
+<i class="fas fa-phone-volume"></i>
+<span class="text-custom-white">
+<strong>Phone No.:</strong>
+<a href="#" class="fs-16 text-white d-block">(+123) 123 4567 890</a>
+</span>
+</li>
+</ul>
+</div>
+</div>
+<%--<div class="col-lg-3 col-sm-6">
+<div class="ft-box mb-md-80">
+<div class="ft-head">
+<h4 class="text-custom-white">Fresh Tweets</h4>
+</div>
+<ul class="custom ft-tweets ft-tweets-slider">
+<li>
+<i class="fab fa-twitter"></i>
+<span class="text-custom-white"><a href="#" class="text-white fs-16 fw-500">@user_name</a> HTML Version Out Now <strong class="d-block">10 Mins ago</strong></span>
+</li>
+<li>
+<i class="fab fa-twitter"></i>
+<span class="text-custom-white"><a href="#" class="text-white fs-16 fw-500">@user_name</a> HTML Version Out Now <strong class="d-block">10 Mins ago</strong></span>
+</li>
+<li>
+<i class="fab fa-twitter"></i>
+<span class="text-custom-white"><a href="#" class="text-white fs-16 fw-500">@user_name</a> HTML Version Out Now <strong class="d-block">10 Mins ago</strong></span>
+</li>
+<li>
+<i class="fab fa-twitter"></i>
+<span class="text-custom-white"><a href="#" class="text-white fs-16 fw-500">@user_name</a> HTML Version Out Now <strong class="d-block">10 Mins ago</strong></span>
+</li>
+</ul>
+</div>
+</div>--%>
+<%--<div class="col-lg-3 col-sm-6">
+<div class="ft-box mb-xs-80">
+<div class="ft-head">
+<h4 class="text-custom-white">Latest Updates</h4>
+</div>
+<ul class="custom ft-blog">
+<li>
+<div class="post-date">
+<span class="text-custom-white">28</span>
+<strong class="text-custom-white">MAR</strong>
+</div>
+<div class="post-content">
+<a href="blog-details.html" class="text-white fs-16 fw-500">Rendomissed words which dont look evable.</a>
+</div>
+</li>
+<li>
+<div class="post-date">
+<span class="text-custom-white">29</span>
+<strong class="text-custom-white">MAR</strong>
+</div>
+<div class="post-content">
+<a href="blog-details.html" class="text-white fs-16 fw-500">Evisculate Parallel Processes Technica. </a>
+</div>
+</li>
+<li>
+<div class="post-date">
+<span class="text-custom-white">28</span>
+<strong class="text-custom-white">MAR</strong>
+</div>
+<div class="post-content">
+<a href="blog-details.html" class="text-white fs-16 fw-500">Rendomissed words which dont look evable.</a>
+</div>
+</li>
+</ul>
+</div>
+</div>--%>
+<div class="col-lg-3 col-sm-6">
+<div class="ft-box">
+<div class="ft-head">
+<h4 class="text-custom-white">Connect With Us</h4>
+</div>
+<div class="ft-newsletter input-group mb-xl-20">
+<input type="email" name="#" class="form-control form-control-custom" placeholder="Your Email Address">
+<div class="append">
+<button href="../User/adclogin/FeedBack.aspx" type="submit"><i class="fal fa-check"></i></button>
+</div>
+</div>
+<ul class="custom-flex ft-social-media">
+<li>
+<a href="#" class="text-custom-white" tabindex="-1"><i class="fab fa-facebook-f"></i></a>
+</li>
+<li>
+<a href="#" class="text-custom-white" tabindex="-1"><i class="fab fa-twitter"></i></a>
+</li>
+<li>
+<a href="#" class="text-custom-white" tabindex="-1"><i class="fab fa-instagram"></i></a>
+</li>
+<li>
+<a href="#" class="text-custom-white" tabindex="-1"><i class="fab fa-linkedin"></i></a>
+</li>
+<li>
+<a href="#" class="text-custom-white" tabindex="-1"><i class="fab fa-pinterest-square"></i></a>
+</li>
+<li>
+<a href="#" class="text-custom-white" tabindex="-1"><i class="fab fa-google-plus"></i></a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+ 
+</footer>
+<div class="copyright bg-theme">
+<div class="container">
+<div class="row">
+<div class="col-12 text-center">
+<p class="no-margin text-custom-white">© 2022 <a href="#" target="_blank" class="text-white"></a> All Right Reserved.</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="back-top" class="back-top">
+<a href="#top"><i class="flaticon-arrows"></i></a>
+</div>
+
+
+
+
+<script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery.min.js"></script>
+
+<script src="assets/js/popper.min.js"></script>
+
+<script src="assets/js/bootstrap.min.js"></script>
+
+<script src="assets/js/ion.rangeSlider.min.js"></script>
+
+<script src="assets/js/slick.min.js"></script>
+
+<script src="assets/js/datepicker.js"></script>
+<script src="assets/js/datepicker.en.js"></script>
+
+<script src="assets/js/jquery.nice-select.js"></script>
+
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+<script src="assets/js/anime.min.js"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnd9JwZvXty-1gHZihMoFhJtCXmHfeRQg"></script>
+
+<script src="assets/js/custom.js"></script>
+
+
+</body>
+
+<!-- Mirrored from www.codezion.com/themes/html/karona/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 15 May 2022 09:47:24 GMT -->
+</html>
+     
